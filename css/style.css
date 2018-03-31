@@ -12,7 +12,7 @@
     line-height: 1.4;
     font-weight: 800;
     text-transform: uppercase;
-    color: #1c1c1c!important;
+    color: white!important;
     transition: all 0.3s;
 }
 
@@ -31,11 +31,11 @@
 }
 
 .section-image {
-    background-image: url(../assets/1.jpg);
+    background-image: url(../assets/5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-origin: content-box;
-    height: 500px;
+    height: 800px;
 }
 
 .section-numbers {
@@ -119,5 +119,21 @@ nav .btn {
     margin: 0;
     padding: 0;
     display: block;
+
+}
+
+#googleMap {
+  width: 100%;
+  height: 400px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+@media screen and (max-width: 600px){
+
+    nav .btn {
+    font-weight: 800;
+    margin-top: 10px;
+}
 
 }
