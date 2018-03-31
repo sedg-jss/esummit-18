@@ -3,6 +3,9 @@
     color: #5d5d5d;
 }
 
+.navbar{
+    background-color:#172525;
+}
 .section {
     width: 100%;
 }
@@ -36,18 +39,21 @@
     background-size: cover;
     background-origin: content-box;
     height: 800px;
+    margin-top: 50px;
 }
 
 .section-numbers {
-    background-color: #e5e5e5;
+    background-color:#EBE1BE;
 }
 
 .section-numbers .head {
-    font-size: 18px;
+    font-size: 30px;
+    color: #172525;
+    height: 100px;
 }
 
 .section-numbers .numbers {
-    font-size: 30px;
+    font-size: 42px;
     color: #ee3268;
 }
 

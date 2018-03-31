@@ -3,14 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:800,400,300" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Animate.css -->
+    <script src="viewportchecker.js"></script>
     <title>ESUMMIT-18 | Home</title>
 </head>
 
 <body class="text-center" id="body">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark box-shadow">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light box-shadow">
         <div class="container">
             <a class="navbar-brand mt-lg-1 mb-lg-1" href="#">LOGO</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,8 +80,8 @@
     <div class="section-about pt-5 pb-5" id="about">
         <div class="container section">
             <div class="row text-center">
-                <div class="col-md-12 mt-5 mb-5">
-                    <h1>
+                <div class="col-md-12 mt-5 mb-5 animatedParent">
+                    <h1 class="animated shake">
                         What is E-SUMMIT?
                     </h1>
                 </div>
@@ -294,6 +297,9 @@
     </div>
 
     <hr>
+
+
+
     <script>
     function myMap() {
     var mapProp= {
@@ -304,9 +310,11 @@
     }
     </script>
 
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBVagklOrOjo9umNEJSD16Dli03q1KBhS4 &callback=myMap"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/css3-animate-it.js"></script>
 </body>
 </html>
