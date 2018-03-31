@@ -3,11 +3,8 @@
     color: #5d5d5d;
 }
 
-html,
-body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+html {
+    width: 100vw;
 }
 
 body {
@@ -70,8 +67,35 @@ body {
 }
 
 .section-about p {
+    color: #EBE1BE;
     font-size: 1.3rem;
     line-height: 1.4;
+}
+
+.section-about h1 {
+    color: #EBE1BE;
+}
+
+.section-about {
+    background-color: #172525;
+}
+
+.section-past {
+    color: #172525;
+    background: #EBE1BE;
+}
+
+.section-sponsers {
+    background: #172525;
+}
+
+.section-sponsers h1 {
+    color: #ebe1be;
+}
+
+.section-contact {
+    background: #ebe1be;
+
 }
 
 .box-shadow {
@@ -140,7 +164,7 @@ nav .btn {
 
 }
 
-.footer{
+.footer {
     background-color: #172525;
     height: 100px;
 }
