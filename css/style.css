@@ -3,9 +3,21 @@
     color: #5d5d5d;
 }
 
-.navbar{
-    background-color:#172525;
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #172525;
+}
+
 .section {
     width: 100%;
 }
@@ -43,7 +55,7 @@
 }
 
 .section-numbers {
-    background-color:#EBE1BE;
+    background-color: #EBE1BE;
 }
 
 .section-numbers .head {
@@ -134,18 +146,19 @@ nav .btn {
 }
 
 #googleMap {
-  width: 100%;
-  height: 400px;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  margin-bottom: 0px;
+
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 
     nav .btn {
-    font-weight: 800;
-    margin-top: 10px;
-}
+        font-weight: 800;
+        margin-top: 10px;
+    }
 
 }
