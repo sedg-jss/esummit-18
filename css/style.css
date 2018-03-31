@@ -2,11 +2,6 @@
     font-family: 'Lato', sans-serif;
     color: #5d5d5d;
 }
-
-html {
-    width: 100vw;
-}
-
 body {
     overflow-x: hidden;
 }
