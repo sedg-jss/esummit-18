@@ -128,11 +128,17 @@ nav .btn {
 
 }
 
+.footer{
+    background-color: #172525;
+    height: 100px;
+}
+
 #googleMap {
   width: 100%;
   height: 400px;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+  margin-bottom: 0px;
 }
 
 @media screen and (max-width: 600px){
