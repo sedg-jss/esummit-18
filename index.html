@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:800,400,300" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- Animate.css -->
-    <script src="viewportchecker.js"></script>
     <title>ESUMMIT-18 | Home</title>
 </head>
 
@@ -301,20 +301,21 @@
 
 
     <script>
-    function myMap() {
-    var mapProp= {
-        center:new google.maps.LatLng(28.6143845,77.3565947),
-        zoom:17,
-    };
-    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-    }
-    </script>
+        function myMap() {
+            var mapProp = {
+                center: new google.maps.LatLng(28.6143845, 77.3565947),
+                zoom: 17,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
 
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/css3-animate-it.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBVagklOrOjo9umNEJSD16Dli03q1KBhS4 &callback=myMap"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!--    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="js/css3-animate-it.js"></script>
 </body>
+
 </html>
