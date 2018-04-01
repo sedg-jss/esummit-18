@@ -75,6 +75,10 @@ body {
     background-color: #172525;
 }
 
+.section-about hr {
+    background-color:  #172525;
+}
+
 .section-past {
     color: #172525;
     background: #EBE1BE;
@@ -163,6 +167,18 @@ nav .btn {
     background-color: #172525;
     height: 100px;
 }
+
+#image{
+    margin-top: 20px;
+    height: 400px;
+    width: 550px;
+}
+
+#eventname{
+    font-weight: bold;
+    font-size: 2em;
+}
+
 
 #googleMap {
 
