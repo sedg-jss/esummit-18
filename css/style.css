@@ -189,6 +189,14 @@ nav .btn {
     filter: grayscale(100%);
 }
 
+#bplanhead{
+    font-weight: bold;
+    color:white;
+    margin: auto;
+    margin-bottom: 200px;
+    font-size: 6em;
+}
+
 @media screen and (max-width: 600px) {
 
     nav .btn {
